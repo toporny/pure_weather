@@ -1,0 +1,27 @@
+{
+  "name": "ec6_weather_experiment",
+  "version": "1.0.0",
+  "description": "ec6_weather_experiment",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets es2015-without-strict js_es6/storage.js js_es6/const.js js_es6/weather_component.js js_es6/main.js -o js_es5/es5.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toporny/ec6_weather_experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toporny/ec6_weather_experiment/issues"
+  },
+  "homepage": "https://github.com/toporny/ec6_weather_experiment#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-without-strict": "^0.0.4",
+    "http-server": "^0.11.1"
+  }
+}
