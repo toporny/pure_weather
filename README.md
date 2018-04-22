@@ -22,10 +22,10 @@ Whole javascript code weight 12kilobytes and that's it. Super fast and super lig
 ## How to lunch?
 Step1: install and launch http-server:
 ```sh
-git https://github.com/toporny/pure_weather.git
+$ git https://github.com/toporny/pure_weather.git
 $ cd pure_weather
-$ npm install http-server
-$ http-server
+$ npm install
+$ npm start
 ```
 
 Step2: open browser with this url: http://127.0.0.1:8080/index.html
@@ -33,10 +33,7 @@ Step2: open browser with this url: http://127.0.0.1:8080/index.html
 
 
 ## How to test?
-Start Jasmine test tunner by:
-```sh
-http://127.0.0.1:8080/SpecRunner.html
-```
+Open Jasmine SpecRunner.html in browser: http://127.0.0.1:8080/SpecRunner.html
 
 ![N](assets/jasmine_test.png)
 
@@ -44,10 +41,9 @@ http://127.0.0.1:8080/SpecRunner.html
 
 ## Problem with other browsers
 ECMA6 means it works only on modern browsers.
-For all those who wants to try it on older browsers they need to compile this code from EC6 to EC5 with babel:
+For all of those who wants to try it on older browsers they need to compile this code from EC6 to EC5 with babel:
 Step1: install envinroment
 ```sh
-npm install
 npm run babel
 npm run start
 ```
