@@ -41,12 +41,14 @@ Open Jasmine SpecRunner.html in browser: http://127.0.0.1:8080/SpecRunner.html
 
 ## Problem with other browsers
 ECMA6 means it works only on modern browsers.
-For all of those who wants to try it on older browsers they need to compile this code from EC6 to EC5 with babel:
+For all of those who want to try it on older browsers they need to parse this by babel plugin.
+Babel makes this application compatibile with EC5.
+
 Step1: install envinroment
 ```sh
 npm run babel
 npm run start
 ```
-Step2: open browser with this url: http://127.0.0.1:8080/index_es5.html
+Step2: open browser with index_es5.html : http://127.0.0.1:8080/index_es5.html
 
 ![N](assets/horizontal.jpg)
