@@ -119,7 +119,7 @@ class WeatherComponent {
 
 
         html += `
-        <div class="day_info"><p class="day">${wd.date}<br>${wd.day}<br>${wd.time}</p>
+        <div class="day_info"><p class="day">${wd.date}<br>${wd.day}</p>
             <img class="icon" src="assets/icons/${wd.icon}.png">
             <p class="temp_c">${wd.temp_range_C}</p>
             <p class="temp_f">${wd.temp_range_F}</p>
