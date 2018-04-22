@@ -53,6 +53,7 @@ Step2: open browser with index_es5.html : http://127.0.0.1:8080/index_es5.html
 
 
 ec6 version: http://alltic.home.pl/pure_weather_ec6
+
 ec5 version: http://alltic.home.pl/pure_weather_ec5
 
 
