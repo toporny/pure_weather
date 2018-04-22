@@ -84,7 +84,6 @@ class WeatherComponent {
 
   // prepare one row or column (depends of screen)
   prepareOneRow(obj) {
-    console.log('obj',JSON.stringify(obj))
     let date_time = this._timeConverter(obj.dt, obj.dt_txt)
     let min_temp = Math.round(parseFloat(obj.main.temp_min))
     let max_temp = Math.round(parseFloat(obj.main.temp_max))
@@ -117,7 +116,6 @@ class WeatherComponent {
         wind_speed : obj.wind.speed
     }
  
-    console.log('wd',JSON.stringify(wd))
     return wd
   }
 
