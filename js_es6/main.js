@@ -39,10 +39,6 @@ function initialize() {
         txtLat = evt.latLng.lat().toFixed(6);
         txtLng = evt.latLng.lng().toFixed(6);
         
-        // console.log('txtLat, txtLng:',txtLat, txtLng);
-        weatherComponent.getBaloonBasedData(txtLat, txtLng);
-
-
         if (typeof timer !== 'undefined') {
             console.log('delete timer');
             clearTimeout(timer);
@@ -50,7 +46,8 @@ function initialize() {
 
 
         timer = window.setTimeout(function() {
-
+	        // console.log('txtLat, txtLng:',txtLat, txtLng);
+	        weatherComponent.getBaloonBasedData(txtLat, txtLng);
             document.getElementById('component_screen').style.display='block';
         }, 1500);
 
