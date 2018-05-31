@@ -1,6 +1,6 @@
 ## Pure Weather
 
-For many years I have been using [bootstrap](https://github.com/toporny/andrea_project/), [AngularJS](https://github.com/toporny/just_words), [Angular 2+](https://github.com/toporny/angular-2-dynamic-component) and [Sass](https://github.com/toporny/andrea_project),  jQuery and many other plugins but time goes on and now it's time to do something from scratch :)
+For many years I have been using [bootstrap](https://github.com/toporny/andrea_project/), [AngularJS](https://github.com/toporny/just_words) and [Sass](https://github.com/toporny/andrea_project),  jQuery and many other plugins but time goes on and now it's time to do something from scratch :)
 
 Without any CSS or javascript libraries/frameworks.
 
