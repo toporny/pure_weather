@@ -18,7 +18,6 @@ Whole javascript code weight 12kilobytes and that's it. Super fast and super lig
 - has configuration file: js/const.js 
 
 
-
 ## How to lunch?
 Step1: install and launch http-server:
 ```sh
